@@ -111,6 +111,7 @@ export interface BOM {
   notes?: string;
   product?: Product;
   items: BOMItem[];
+  _count?: { items: number };
   createdAt: string;
   updatedAt: string;
 }
